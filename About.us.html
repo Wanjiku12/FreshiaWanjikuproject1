@@ -4,18 +4,116 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About.us</title>
+    
+<style>
+  body {
+    background-image: url(images/backgrnd.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333; 
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: red;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: red;
+  width: 100%;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+</style>
 </head>
+  
 <body>
+  <div class="navbar">
     <a href="indexx.html">Home</a> |
-        <a href="About.us.html">About</a> |
-        <a href="Products.html">Services</a> |
-        <a href="Contact.us.html">Contact.us</a>|
-        <a href="Services.html">Services</a>|
-        <a href="Helpline.html">Helpline</a>|
-        <a href="Learn.html">Learn about Abuse</a>|
-        <a href="Get.involved.html">Get Involved</a>
-
-
+          <a href="About.us.html">About</a> |
+          <a href="Services.html">Services</a> |
+          <a href="Contact.us.html">Contact.us</a>|
+          <a href="Services.html">Services</a>|
+          <a href="Helpline.html">Helpline</a>|
+          <a href="Learn.html">Learn about Abuse</a>|
+          <a href="Get.involved.html">Get Involved</a>
+  
+      </div>
+    </div> 
+    <div class="subnav">
+      <button class="subnavbtn">Services <i class="fa fa-caret-down"></i></button>
+      <div class="subnav-content">
+        <a href="indexx.html">Home</a> |
+          <a href="About.us.html">About</a> |
+          <a href="Services.html">Services</a> |
+          <a href="Contact.us.html">Contact.us</a>|
+          <a href="Services.html">Services</a>|
+          <a href="Helpline.html">Helpline</a>|
+          <a href="Learn.html">Learn about Abuse</a>|
+          <a href="Get.involved.html">Get Involved</a>
+  
+      </div>
+    </div> 
+    <div class="subnav">
+      <button class="subnavbtn">Get involved <i class="fa fa-caret-down"></i></button>
+      <div class="subnav-content">
+        <a href="#Volunteer">#Volunteer</a>
+        <a href="#link2">Link 2</a>
+        <a href="#link3">Link 3</a>
+        <a href="#link4">Link 4</a>
+      </div>
+    
+  
     <h1> Suicide Helpline.</h1>
     <p>We are a helpine that strives in helping people who struggle with Mental Health issues</p>
     <p> We offer Anonymous services to all that reach out to our platform</p>
