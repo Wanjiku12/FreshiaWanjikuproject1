@@ -1,3 +1,8 @@
+body{
+  h1{
+    color: #3bac12e0;
+  }
+}
 /* Create a top navigation bar with a black background color  */
 .topnav {
     background-color: #333;
