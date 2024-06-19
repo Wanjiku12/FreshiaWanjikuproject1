@@ -187,3 +187,154 @@ body {
     }
   }
   
+/* Reset CSS */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Global Styles */
+body {
+  font-family: Open Sans, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f7f7f7; /* Soft, calming background color */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  color: #3090c7; /* Soothing blue color */
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #3090c7;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header Styles */
+header {
+  background-color: #3090c7;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+header h1 {
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
+/* Navigation Menu Styles */
+nav {
+  background-color: #444;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #ccc;
+}
+
+/* Main Content Styles */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+section {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  margin-top: 0;
+}
+
+/* Crisis Resources Styles */
+.crisis-resources {
+  background-color: #f7f7f7;
+  padding: 20px;
+  text-align: center;
+}
+
+.crisis-resources ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.crisis-resources li {
+  margin-bottom: 10px;
+}
+
+.crisis-resources a {
+  color: #3090c7;
+  text-decoration: none;
+}
+
+.crisis-resources a:hover {
+  text-decoration: underline;
+}
+
+/* Call to Action Styles */
+.call-to-action {
+  background-color: #3090c7;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.call-to-action a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.call-to-action a:hover {
+  text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #3090c7;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+  clear: both;
+}
+
+footer p {
+  margin-bottom: 0;
+}
