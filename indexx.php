@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <?php include_once("templates/indexx.php"); ?>
+<?php include_once("templates/nav.php"); ?>
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="mystylee.css">
 
@@ -124,6 +127,6 @@
 </html>
 
 </div>
-
+<?php include_once(	"templates/footer.php"); ?>
 </body>
 </html>
