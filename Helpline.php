@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<?php include_once("templates/nav.php"); ?>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Helpline Page</title>
@@ -117,17 +119,7 @@
   <h1>Helpline</h1>
 </header>
 <body>
-    <div class="navbar">
-        <a href="indexx.html">Home</a> |
-              <a href="About.us.html">About</a> |
-              <a href="Services.html">Services</a>
-              <a href="Helpline.html">Helpline</a>|
-              <a href="Learn.html">Learn about Abuse</a>|
-              <a href="Get.involved.html">Get Involved</a>
-              <a href="Contact.us.html" class="split">Contact.us</a>|
-          
-    </div>
-      
+    
 
     
     

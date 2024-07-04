@@ -113,24 +113,24 @@
     <body>
         
         <div class="navbar">
-            <a href="indexx.html">Home</a> |
-                  <a href="About.us.html">About</a> |
-                  <a href="Services.html">Services</a> |
+            <a href="indexx.php">Home</a> |
+                  <a href="About.us.php">About</a> |
+                  <a href="Services.php">Services</a> |
                   
-                  <a href="Helpline.html">Helpline</a>|
-                  <a href="Learn.html">Learn about Abuse</a>|
+                  <a href="Helpline.php">Helpline</a>|
+                  <a href="Learn.php">Learn about Abuse</a>|
                   
                   <div class="dropdown">
                     <button class="dropbtn">Get Involved 
                         <i class="fa fa-caret-down"></i>
                     </button>
                     <div class="dropdown-content">
-                        <a href="Contact.us.html">Volunteer</a>
+                        <a href="Contact.us.php">Volunteer</a>
                         
-                        <a href="Event.html">Partner with Us</a>
+                        <a href="Event.php">Partner with Us</a>
                     </div>
                 </div>
-                  <a href="Contact.us.html" class="split">Contact.us</a>|
+                  <a href="Contact.us.php" class="split">Contact.us</a>|
               </div>
             </div> 
            
@@ -177,7 +177,7 @@
     <img src= images/event.jpeg style="height: 100px; width: auto;">
     </div>
     <p>Participate in our events to show your support and spread awareness. Check out our upcoming events and find out how you can get involved.</p>
-    <center><a href="Event.html" class="button">See Upcoming Events</a></center>
+    <center><a href="Event.php" class="button">See Upcoming Events</a></center>
 </div>
 
   <!-- Contact Us Section -->

@@ -24,8 +24,7 @@
     background-size: cover;
   }
   </style>
-</head>
-<body>
+
   
     <h1 style=" text-align: center;">Befrienders Kenya</h1>
     
@@ -84,15 +83,15 @@
                 <div style="display: flex; justify-content: center; flex-wrap: wrap;">
                     <div style="margin: 20px; text-align: center; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
                         <h3 style="font-size: 1.5em; margin-bottom: 10px;">Articles</h3>
-                        <p style="font-size: 1.2em;"><a href="About.us.html" style="color: #007bff; text-decoration: none;">Read Articles</a></p>
+                        <p style="font-size: 1.2em;"><a href="About.us.php" style="color: #007bff; text-decoration: none;">Read Articles</a></p>
                     </div>
                     <div style="margin: 20px; text-align: center; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
                         <h3 style="font-size: 1.5em; margin-bottom: 10px;">Support Groups</h3>
-                        <p style="font-size: 1.2em;"><a href="support-groups.html" style="color: #007bff; text-decoration: none;">Find Support Groups</a></p>
+                        <p style="font-size: 1.2em;"><a href="Services.php" style="color: #007bff; text-decoration: none;">Find Support Groups</a></p>
                     </div>
                     <div style="margin: 20px; text-align: center; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
                         <h3 style="font-size: 1.5em; margin-bottom: 10px;">Self-Help Tools</h3>
-                        <p style="font-size: 1.2em;"><a href="self-help.html" style="color: #007bff; text-decoration: none;">Explore Tools</a></p>
+                        <p style="font-size: 1.2em;"><a href="Get.involved.php" style="color: #007bff; text-decoration: none;">Explore Tools</a></p>
                     </div>
                 </div>
             </section>

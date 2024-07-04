@@ -1,12 +1,12 @@
 
 <div class="navbar">
-  <a href="indexx.html">Home</a> |
-        <a href="About.us.html">About</a> |
-        <a href="Services.html">Services</a> |
-       <a href="Helpline.html">Helpline</a>|
-        <a href="Learn.html">Learn about Abuse</a>|
-        <a href="Get.involved.html">Get Involved</a>
-        <a href="Contact.us.html"class= "split">Contact.us</a>|
+  <a href="indexx.php">Home</a> |
+        <a href="About.us.php">About</a> |
+        <a href="Services.php">Services</a> |
+       <a href="Helpline.php">Helpline</a>|
+        <a href="Learn.php">Learn about Abuse</a>|
+        <a href="Get.involved.php">Get Involved</a>
+        <a href="Contact.us.php"class= "split">Contact.us</a>|
     </div>
     
   </div> 
