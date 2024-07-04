@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<?php include_once("templates/nav.php"); ?>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About.us</title>
@@ -81,21 +82,7 @@ body {
 </head>
   
 <body>
-  <div class="navbar">
-    <a href="indexx.html">Home</a> |
-          <a href="About.us.html">About</a> |
-          <a href="Services.html">Services</a> |
-        <a href="Helpline.html">Helpline</a>|
-          <a href="Learn.html">Learn about Abuse</a>|
-          <a href="Get.involved.html">Get Involved</a>
-          <a href="Contact.us.html" class="split">Contact.us</a>|
-      </div>
-    </div> 
-  
-   
-    
-    
-  
+
     <h1> Suicide Helpline.</h1>
     
     <body style="font-family: 'Helvetica Neue', Arial, sans-serif; margin: 0; padding: 0; background: linear-gradient(to right, #f8f9fa, #e0eafc); color: #333;">
@@ -179,15 +166,9 @@ body {
         </main>
     
         <!-- Footer Section -->
-        <footer style="background-color: #343a40; color: white; text-align: center; padding: 20px;">
-            <p style="margin: 0; font-size: 1em;">&copy; 2024 Suicide Hotline. All rights reserved.</p>
-            <p style="margin: 10px 0 0;">
-                <a href="privacy.html" style="color: #007bff; text-decoration: none;">Privacy Policy</a> | 
-                <a href="terms.html" style="color: #007bff; text-decoration: none;">Terms of Service</a>
-            </p>
-        </footer>
+        
     </body>
     </html>
-    
+    <?php include_once(	"templates/footer.php"); ?>
 </body>
 </html>

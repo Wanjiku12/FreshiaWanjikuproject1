@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<?php include_once("templates/nav.php"); ?>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Helpline Page</title>
@@ -113,7 +115,7 @@
     </footer>
 </body>
 </html>
-
+<?php include_once("templates/footer.php"); ?>
       
     
     

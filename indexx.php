@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <?php include_once("templates/indexx.php"); ?>
+    
 <?php include_once("templates/nav.php"); ?>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,19 +10,7 @@
 </head>
 <body>
 
-<div class="navbar">
-  <a href="indexx.html">Home</a> |
-        <a href="About.us.html">About</a> |
-        <a href="Services.html">Services</a> |
-       <a href="Helpline.html">Helpline</a>|
-        <a href="Learn.html">Learn about Abuse</a>|
-        <a href="Get.involved.html">Get Involved</a>
-        <a href="Contact.us.html"class= "split">Contact.us</a>|
-    </div>
-  </div> 
-  
-    
-  </div> 
+
   
   
 
@@ -96,7 +84,7 @@
                 <div style="display: flex; justify-content: center; flex-wrap: wrap;">
                     <div style="margin: 20px; text-align: center; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
                         <h3 style="font-size: 1.5em; margin-bottom: 10px;">Articles</h3>
-                        <p style="font-size: 1.2em;"><a href="articles.html" style="color: #007bff; text-decoration: none;">Read Articles</a></p>
+                        <p style="font-size: 1.2em;"><a href="About.us.html" style="color: #007bff; text-decoration: none;">Read Articles</a></p>
                     </div>
                     <div style="margin: 20px; text-align: center; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
                         <h3 style="font-size: 1.5em; margin-bottom: 10px;">Support Groups</h3>
@@ -111,13 +99,7 @@
         </main>
     
         <!-- Footer Section -->
-        <footer style="background-color: #343a40; color: white; text-align: center; padding: 20px; position: relative; bottom: 0; width: 100%;">
-            <p style="margin: 0; font-size: 1em;">&copy; 2024 Suicide Hotline. All rights reserved.</p>
-            <p style="margin: 10px 0 0;">
-                <a href="privacy.html" style="color: #007bff; text-decoration: none;">Privacy Policy</a> | 
-                <a href="terms.html" style="color: #007bff; text-decoration: none;">Terms of Service</a>
-            </p>
-        </footer>
+        
     </body>
     </html>
     
