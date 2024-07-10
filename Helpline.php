@@ -162,9 +162,7 @@
             </section>
         </main>
     
-        <footer>
-            <p>&copy; 2024 Helpline Page. All rights reserved.</p>
-        </footer>
+        <?php include_once("templates/footer.php"); ?>  
     
         <script>
             const form = document.getElementById('contact-form');

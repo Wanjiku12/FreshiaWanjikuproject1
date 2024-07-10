@@ -149,7 +149,7 @@
   </section>
   
   <!-- Donate Section -->
-  <section id="donate">
+  <center><section id="donate">
     <h2>Donate</h2>
     <p>Your donation helps us provide critical support and resources to those in need.</p>
     <form>
@@ -157,44 +157,37 @@
       <input type="number" id="amount" name="amount">
       <button type="submit">Donate Now</button>
     </form>
-  </section>
+  </section></center>
   
   <!-- Volunteer Section -->
-  <section id="volunteer">
+ <center> <section id="volunteer">
     <h2>Volunteer</h2>
     <p>Join our team of dedicated volunteers and help make a difference in your community.</p>
-    <form>
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name"><br>
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email"><br>
-      <button type="submit">Sign Up</button>
-    </form>
+      <center><a href="signup.php" class="button">Sign up here</a></center>
+</div>
+    
+    </section></center>
   </section>
-  <div class="events-section">
+  <center><div class="events-section">
     <h2> Attend Events</h2>
     <div style="text-align: left;">
     <img src= images/event.jpeg style="height: 100px; width: auto;">
     </div>
     <p>Participate in our events to show your support and spread awareness. Check out our upcoming events and find out how you can get involved.</p>
-    <center><a href="Event.php" class="button">See Upcoming Events</a></center>
-</div>
+    <a href="Event.php" class="button">See Upcoming Events</a>
+</div></center>
 
   <!-- Contact Us Section -->
-  <section id="contact">
+  ><center><section id="contact">
     <h2>Contact Us</h2>
     <p>Get in touch with us to learn more about our organization and how you can get involved.</p>
     <ul>
-      <li><a href="mailto:info@suicidehelpline.org">help@suicidehelpline.org</a></li>
-      <li><a href="tel:1-800-HELP-NOW"> 1-800-123-4567</a></li>
+      <a href="mailto:info@suicidehelpline.org">help@suicidehelpline.org</a>
+      <a href="tel:1-800-HELP-NOW"> 1-800-123-4567</a><center>
     </ul>
   </section>
   
-  <!-- Footer Section -->
-  <footer>
-    <p>&copy; 2024 Suicide Helpline. All rights reserved.</p>
-  </footer>
-
+  <?php include_once(	"templates/footer.php"); ?>
 
 
     </body>

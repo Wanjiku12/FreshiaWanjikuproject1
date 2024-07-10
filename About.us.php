@@ -83,13 +83,13 @@ body {
   
 <body>
 
-    <h1> Suicide Helpline.</h1>
+ 
     
     <body style="font-family: 'Helvetica Neue', Arial, sans-serif; margin: 0; padding: 0; background: linear-gradient(to right, #f8f9fa, #e0eafc); color: #333;">
     
         <!-- Header Section -->
-        <header style="background: #007bff; color: white; text-align: center; padding: 40px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-            <h1 style="font-size: 3em; margin: 0;">About Us</h1>
+        <header style="background: #007bff; color: white; text-align: center; padding: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+            <h1 style="font-size: 2em; margin: 0;">About Us</h1>
             <p style="font-size: 1.2em; margin-top: 10px;">Get to Know Our Mission and Team</p>
         </header>
     
@@ -108,33 +108,8 @@ body {
                 
             </section>
     
-            <!-- Our Team Section -->
-            <section style="margin-bottom: 60px;">
-                <h2 style="text-align: center; font-size: 2.5em; margin-bottom: 20px;">Our Team</h2>
-                <div style="display: flex; justify-content: center; flex-wrap: wrap;">
-                    <div style="margin: 20px; text-align: center; background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); max-width: 300px;">
-                        <img src="team-member-1.jpg" alt="Team Member 1" style="width: 100px; height: 100px; border-radius: 50%;">
-                        <h3 style="font-size: 1.5em; margin-top: 10px;">John Doe</h3>
-                        <p style="font-size: 1.1em; color: #555;">Founder & CEO</p>
-                        <p style="font-size: 1em;">John has over 20 years of experience in mental health services and is passionate about helping others find hope and support.</p>
-                    </div>
-                    <div style="margin: 20px; text-align: center; background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); max-width: 300px;">
-                        <img src="team-member-2.jpg" alt="Team Member 2" style="width: 100px; height: 100px; border-radius: 50%;">
-                        <h3 style="font-size: 1.5em; margin-top: 10px;">Jane Smith</h3>
-                        <p style="font-size: 1.1em; color: #555;">Clinical Director</p>
-                        <p style="font-size: 1em;">Jane is a licensed therapist with a focus on crisis intervention and suicide prevention. She leads our team of dedicated counselors.</p>
-                    </div>
-                    <div style="margin: 20px; text-align: center; background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); max-width: 300px;">
-                        <img src="team-member-3.jpg" alt="Team Member 3" style="width: 100px; height: 100px; border-radius: 50%;">
-                        <h3 style="font-size: 1.5em; margin-top: 10px;">Emily Johnson</h3>
-                        <p style="font-size: 1.1em; color: #555;">Community Outreach Coordinator</p>
-                        <p style="font-size: 1em;">Emily organizes community events and educational programs to raise awareness about mental health and provide resources to those in need.</p>
-                    </div>
-                </div>
-            </section>
-    
-            <!-- Our Values Section -->
-            <section style="margin-bottom: 60px;">
+               <!-- Our Values Section -->
+               <section style="margin-bottom: 60px;">
                 <h2 style="text-align: center; font-size: 2.5em; margin-bottom: 20px;">Our Values</h2>
                 <div style="display: flex; justify-content: center; flex-wrap: wrap;">
                     <div style="margin: 20px; text-align: center; background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); max-width: 300px;">
@@ -151,24 +126,25 @@ body {
                     </div>
                 </div>
             </section>
-    
-            <!-- Contact Section -->
-            <section>
-                <h2 style="text-align: center; font-size: 2.5em; margin-bottom: 20px;">Contact Us</h2>
-                <p style="text-align: center; max-width: 900px; margin: 0 auto; font-size: 1.1em; line-height: 1.8;">
-                    If you have any questions, concerns, or need support, please don't hesitate to contact us. We are here to help and support you in any way we can.
-                </p>
-                <div style="text-align: center; margin-top: 20px;">
-                    <p style="font-size: 1.2em;"><strong>Email:</strong> helpinghands@suicidehotline.org</p>
-                    <p style="font-size: 1.2em;"><strong>Phone:</strong> 1-800-123-4567</p>
+
+
+            <!-- Our Team Section -->
+            <section style="margin-bottom: 60px;">
+                <h2 style="text-align: center; font-size: 2.5em; margin-bottom: 20px;">Our Team</h2>
+                <div style="display: flex; justify-content: center; flex-wrap: wrap;">
+                    <div style="margin: 20px; text-align: center; background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); max-width: 300px;">
+                       <h3 style="font-size: 1.5em; margin-top: 10px;">Wanjiku Macharia</h3>
+                        <p style="font-size: 1.1em; color: #555;">Founder & CEO</p>
+                        <p style="font-size: 1em;">Wanjiku has over 20 years of experience in mental health services and is passionate about helping others find hope and support.</p>
+                    </div>
+                    <div style="margin: 20px; text-align: center; background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); max-width: 300px;">
+                       <h3 style="font-size: 1.5em; margin-top: 10px;">Jane Smith</h3>
+                        <p style="font-size: 1.1em; color: #555;">Clinical Director</p>
+                        <p style="font-size: 1em;">Jane is a licensed therapist.</p>
+                    </div>
+                    
                 </div>
             </section>
-        </main>
-    
-        <!-- Footer Section -->
-        
-    </body>
-    </html>
-    <?php include_once(	"templates/footer.php"); ?>
-</body>
+   
+            </body>
 </html>

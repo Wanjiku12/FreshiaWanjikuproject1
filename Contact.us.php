@@ -11,7 +11,7 @@
             font-family: 'Helvetica Neue', Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f2f2f2;
+            background-color: white;
         }
         .navbar {
             overflow: hidden;
@@ -47,7 +47,8 @@
             margin-top: 20px;
         }
         h1, h2 {
-            color: #007bff;
+           font-family: 'Helvetica Neue', Arial, sans-serif;
+           color: #000;
             text-align: center;
         }
         label {
@@ -89,8 +90,12 @@
 
 
     <div class="content">
-        <h1>Contact Us</h1>
-        <h2>Get in Touch</h2>
+        <!-- Header Section -->
+     <header style="background: #e0f7fa; color: white; text-align: center; padding: 40px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <h1 style="font-size: 3em; margin: 0;">Contact Us</h1>
+        <h2 style="font-size: 1.2em; margin-top: 10px;">Get in Touch</h2>
+    </header>
+        
         <p>We'd love to hear from you! Please fill out the form below and we'll get back to you as soon as possible.</p>
         <form action="#" method="post">
             <label for="name">Name:</label>
@@ -120,13 +125,22 @@
             <input type="radio" id="original" name="help_type" value="original">
             <label for="original">Original</label><br>
 
-            <p>What language do you speak?</p>
-            <input type="checkbox" id="swahili" name="language" value="swahili">
-            <label for="swahili">Swahili</label>
-            <input type="checkbox" id="english" name="language" value="english">
-            <label for="english">English</label>
-            <input type="checkbox" id="spanish" name="language" value="spanish">
-            <label for="spanish">Spanish</label><br>
+            <label for="select">Language:</label><br>
+            <div class="custom-select">
+                <div class="select-selected">Select an option</div>
+                <div class="select-items select-hide">
+                    <br>
+                </div>
+                <select id="select" name="subject">
+                    <option value="English">English</option>
+                    <option value="swahili">Swahili</option>
+                    <option value="French">French</option><br>
+                    <option value="Chinese">Chinese</option><br>
+                    <option value="Armenian">Armenian</option><br>
+                    <option value="Dutch">Dutch</option><br>
+                </select>
+            </div>
+          
 
             <label for="message">Message:</label>
             <textarea id="message" name="message" cols="30" rows="10" required></textarea>
@@ -191,5 +205,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
 ?>
+<?php include_once(	"templates/footer.php"); ?>
 </body>
 </html>
