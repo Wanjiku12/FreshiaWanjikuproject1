@@ -97,18 +97,16 @@
     </header>
         
         <p>We'd love to hear from you! Please fill out the form below and we'll get back to you as soon as possible.</p>
-        <form action="#" method="post">
+        <form action="contactprocess.php" method="post">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
 
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required>
 
-            <label for="pwd">Password:</label>
-            <input type="password" id="pwd" name="password" placeholder="Password" required>
-
+            
             <label for="age">Age:</label>
-            <input type="number" id="age" name="age" placeholder="Age" required>
+            <input type="number" id="age" name="age" placeholder="age" required>
 
             <label for="date">Date:</label>
             <input type="date" id="date" name="date" required>
@@ -116,22 +114,13 @@
             <label for="time">Time:</label>
             <input type="time" id="time" name="time" required>
 
-            <p>How would you like to reach out?   (Select all that apply)</p>
-
-            <input type="radio" id="anonymous" name="help_type" value="anonymous">
-            <label for="anonymous">Anonymous</label>
-            <input type="radio" id="mid" name="help_type" value="mid">
-            <label for="mid">MID</label>
-            <input type="radio" id="original" name="help_type" value="original">
-            <label for="original">Original</label><br>
-
             <label for="select">Language:</label><br>
             <div class="custom-select">
                 <div class="select-selected">Select an option</div>
                 <div class="select-items select-hide">
                     <br>
                 </div>
-                <select id="select" name="subject">
+                <select id="select" name="language">
                     <option value="English">English</option>
                     <option value="swahili">Swahili</option>
                     <option value="French">French</option><br>
@@ -152,7 +141,7 @@
                 <option value="male">Male</option>
             </select>
 
-            <input type="submit" value="Submit">
+            <button type="submit">Submit</button>
         </form>
     </div>
      <!-- Map Embed -->

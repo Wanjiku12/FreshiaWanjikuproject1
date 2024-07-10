@@ -127,13 +127,14 @@
             <section>
                 <h2>Get in Touch with Our Helpline</h2>
                 <p>Fill out the form below to get in contact with someone on our helpline. We'll respond immediately.</p>
-                <form id="contact-form">
+                
+                    <form action="helpers.php" method="post">
                     <label for="name">Name:</label>
                     <input type="text" id="name" name="name" required>
                     <label for="email">Email:</label>
                     <input type="email" id="email" name="email" required>
                     <label for="phone">Phone:</label>
-                    <input type="tel" id="phone" name="phone" required>
+                    <input type="phone" id="phone" name="phone" required>
                     <label for="message">Message:</label>
                     <textarea id="message" name="message" required></textarea>
                     <button type="submit">Send</button>
@@ -164,27 +165,7 @@
     
         <?php include_once("templates/footer.php"); ?>  
     
-        <script>
-            const form = document.getElementById('contact-form');
-            form.addEventListener('submit', (e) => {
-                e.preventDefault();
-                const formData = new FormData(form);
-                fetch('/contact', {
-                    method: 'POST',
-                    body: formData
-                })
-                .then((response) => response.json())
-                .then((data) => {
-                    console.log(data);
-                    // Display a success message to the user
-                    document.getElementById('contact-form').innerHTML = '<p>Thank you for reaching out! We\'ll respond immediately.</p>';
-                })
-                .catch((error) => {
-                    console.error(error);
-                    // Display an error message to the user
-                    document.getElementById('contact-form').innerHTML = '<p>Sorry, there was an error submitting your message. Please try again.</p>';
-                });
-            });
+       
         </script>
     </body>
     </html>
