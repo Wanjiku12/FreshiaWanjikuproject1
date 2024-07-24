@@ -21,7 +21,7 @@ if ($conn->connect_error) {
      else {
         $stmt= $conn->prepare("insert into contactform(name, email, password, message, age, date, time, language, gender)
         values(? ,? ,? ,? ,? ,? ,? ,?, ? )");
-        $stmt->bind_param("ssssissss", $name, $email, $password, $message, $age, $date, $time, $language, $gender);
+        $stmt->bind_param("ssssissss", $name, $email, $password_hash, $message, $age, $date, $time, $language, $gender);
         $stmt->execute();
 
         echo "Thank you for your message, We will get back to you shortly " . $stmt->error;
